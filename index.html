@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CamFort – Comfort through Camera</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="theme-toggle" onclick="toggleTheme()">🌙</div>
+
+  <header>
+    <h1>CamFort</h1>
+    <p>Comfort through Camera – Real-time Sign Language Detection</p>
+  </header>
+
+  <main>
+    <video id="camera" autoplay muted></video>
+    <div id="output">👉 Detected Sign Will Appear Here</div>
+
+    <div class="controls">
+      <button onclick="startDetection()">Start Detection</button>
+      <button onclick="stopDetection()">Stop Detection</button>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 CamFort Project Team
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
